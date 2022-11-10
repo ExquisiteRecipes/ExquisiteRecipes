@@ -1,0 +1,87 @@
+.banner {
+   font-family: arial;
+   font-size: 34px;
+   color: lightcyan;
+   background-color: darkcyan;
+   text-align: center;
+   margin: 0;
+   padding: 15px 0px 15px 0px;
+}
+
+nav ul {
+   position: fixed;
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: darkcyan;
+   position: -webkit-sticky;
+   position: sticky;
+   top: 0;
+ }
+
+ nav ul li {
+   float: left;
+ }
+
+ nav ul li a {
+   display: block;
+   color: white;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+ }
+
+ nav ul li a:hover {
+   background-color: cyan;
+ }
+
+  .active {
+   background-color: #20B2AA;
+ }
+
+ footer {
+    position: fixed;
+    height:50px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: darkcyan;
+    color: white;
+    text-align: center;
+ }
+
+ top-container {
+   background-color: #f1f1f1;
+   padding: 30px;
+   text-align: center;
+ }
+
+ h3 {
+    font-size: 20px;
+    color: black;
+    text-align: left;
+    opacity: 0.8;
+  }
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+main {
+    height:100%;
+    margin-top:150px;
+    margin-bottom:50px;
+}
+
+button {
+  background-color: darkcyan;
+  border-color: darkcyan;
+  border-bottom: darkcyan;
+  border-right: darkcyan;
+  border-left: darkcyan;
+  border-top: darkcyan;
+  color: white;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<link href="style.css" type="text/css" rel="stylesheet">
+<script src="scripts/main.js"></script>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<head>
+  <meta name= "description" content= "This website was created to learn and find easy recipes for any occasion."/>
+  <meta name= "keywords" content= "Recipes, food, easy, cooking, delicious, exquisite recipes, favorite recipes"/>
+  <meta charset= "utf-8"/>
+  <meta name= "author" content= "Exquisite Recipes Editors"/>
+  <meta name= "copyright" content= "© 2021 Exquisite Recipes. All rights reserved."/>
+
+  <div class="w3-row-padding">
+      <div class="w3-third">
+      <title>Exquisite Recipes</title>
+      </div>
+</head>
+<body style="background-color:lightcyan">
+
+  <header>
+    <div class="top-container">
+      <h1 class="banner"> <em>Exquisite Recipes</em></h1>
+    </div>
+      <nav>
+        <ul>
+          <li><a class=active href="index.html">Homepage</a></li>
+          <li><a href="entries.html">Entries</a></li>
+          <li><a href="ovenfree.html">Oven Free</a></li>
+          <li><a href="desserts.html">Desserts</a></li>
+          <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+      </nav>
+      <br>
+      <button onclick="button12()">Click here if you are less than 12 years old.</button>
+  </header>
+
+
+    <main>
+    <body onload = "checkAge()">
+      <div class="w3-mobile">
+      <br>
+      <h2>Welcome Message</h2>
+        <p>Welcome to Exquisite Recipes. Here you will find the easiest and most delicious recipes you can do whenever you feel like you want to cook. You can do all of these recipes with your friends, family, or even alone if you feel like doing so! We hope you enjoy these recipes and share your results with us!<p/>
+        <p>Remember:</p>
+        <ol>
+          <li>Cooking can cure your boredom!</li>
+          <li>You can always surprise people by cooking them nice meals!</li>
+          <li>It's okay if the recipe does not turn out amazing in the first try, but remember to keep trying!</li>
+        </ol>
+      <br>
+      <h3>Our Favorite Recipes</h3>
+        <p>These are our favourite recipes. We recommend you to try them!</p>
+      <img src="assets/mexicanlemonsmoothie_image.png" id= "myImage1" alt="Mexican Lemon Smoothie" width="350" height="500" onmouseover="newImage('myImage1','assets/mexicanlemonsmoothie_image.png','assets/mexicanlemonsmoothie_image2.png')" onmouseout="newImage('myImage1','assets/mexicanlemonsmoothie_image.png','assets/mexicanlemonsmoothie_image2.png')"/>
+      <p><a href="assets/mexicanlemonsmoothie.pdf">Mexican Lemon Smoothie</a></p>
+      <img src="assets/bananabread_image.png" id= "myImage2" alt="Banana Bread" width="350" height="500" onmouseover="newImage('myImage2','assets/bananabread_image.png','assets/bananabread_image2.png')" onmouseout="newImage('myImage2','assets/bananabread_image.png','assets/bananabread_image2.png')"/>
+      <p><a href="assets/bananabread.pdf">banana bread</a></p>
+      <img src="assets/pizza_image.jpg" id="myImage3" alt="Pizza" width="350" height="500" onmouseover="newImage('myImage3','assets/pizza_image.jpg','assets/pizza_image2.png')" onmouseout="newImage('myImage3','assets/pizza_image.jpg','assets/pizza_image2.png')"/>
+      <p><a href="assets/pizza.pdf">Pizza</a></p>
+        <br>
+        <br>
+    </main>
+    <footer>
+      <p>© 2021 Exquisite Recipes. All rights reserved.</p>
+    </footer>
+  </body>
+</div>
+</div>
+</html>
